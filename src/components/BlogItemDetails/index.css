@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.container {
+  width: 100%;
+}
+.blog-item-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.heading {
+  font-weight: bold;
+  color: #000000;
+  font-size: 22px;
+}
+.blog-item-details-author-image {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.author-details-container {
+  display: flex;
+  width: 550px;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+.blog-item-details-image {
+  width: 550px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.content {
+  width: 550px;
+}
